@@ -7,7 +7,7 @@ class Usuario:
     def __str__(self):
         return f'Usuario: {self._id_usuario} {self._username} {self._password}'
     
-    #Métodos Get y Set
+    #Métodos Getter y Setter
     @property
     def id_usuario(self):
         return self.id_usuario
